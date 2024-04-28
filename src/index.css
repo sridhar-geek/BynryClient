@@ -9,9 +9,6 @@
   }
   .effect {
   }
-  .extraBtn {
-    @apply py-1 text-center cursor-pointer;
-  }
   /* Home Page */
 
   /* Footer Styles */
