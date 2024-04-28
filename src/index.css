@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* Header Styles */
+  .header_element {
+    @apply items-center gap-2 hidden md:flex;
+  }
+  .effect {
+  }
+  .extraBtn {
+    @apply py-1 text-center cursor-pointer;
+  }
+  /* Home Page */
+
+  /* Footer Styles */
+  .footer_items {
+    @apply mb-3 font-medium hover:text-primary cursor-pointer;
+  }
+}
